@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.circl{
+    width: 1000px;
+    height: 1000px;
+    background-image: linear-gradient(to right , #c4d5ff , #334267);
+    border-radius: 100%;
+    z-index: -1;
+    position: fixed;
+    right: 50%;
+    top: 10%;
+}
+.cuntent-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 80%;
+    height: 600px;
+
+    border-radius: 20px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+.title{
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.box-form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(22px);
+}
+.box-img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.box-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.box-input{
+    width: 50%;
+}
+.box-input label{
+    padding-left: 12px;
+}
+.box-input input{
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 45px;
+    margin-top: 0.3rem;
+    outline: 0;
+}
+.contaner-button{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contaner-button button{
+    border: 0;
+    background-color: #fff;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+.box-title-bottom a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .box-img{
+        display: none;
+    }
+    .box-form{
+        width: 100%;
+    }
+    .box-input{
+        width: 80%;
+    }
+    .contaner-button button{
+        width: 80%;
+    }
+}
