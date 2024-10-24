@@ -75,10 +75,10 @@ body{
     background-color: transparent;
     border-radius: 20px;
     width: 100%;
-    margin-bottom: 2rem;
+    margin:0.3rem 0 2rem 0;
     height: 45px;
-    margin-top: 0.3rem;
     outline: 0;
+    padding-left: 10px;
 }
 .contaner-button{
     width: 100%;
